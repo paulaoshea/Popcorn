@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="Popcorn.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+    <title>Popcorn // Save those ideas</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <img src="Popcorn.png" alt="Popcorn Logo" class="logo" />
+
+      <ul class="ideas">
+        <!-- <li class="idea idea--cat1" data-id="1234567890">
+          <h2 class="idea__title">Sci-fi story idea on Jan 9th 2023</h2>
+        </li>
+
+        <li class="idea idea--cat2" data-id="1234567891">
+          <h2 class="idea__title">Poem idea on April 5 2022</h2>
+        </li>
+
+        <li class="idea idea--cat2" data-id="1234567892">
+          <h2 class="idea__title">Picture idea on April 5 2022</h2>
+        </li> -->
+      </ul>
+
+      <footer>
+        <p>© Copyright 2023 Elizabeth O'Shea</p>
+        <p>
+          Contact me at
+          <a href="mailto:elizabethgraceoshea@gmail.com">Elizabeth's email</a>
+        </p>
+      </footer>
+    </div>
+    <main>
+      <!--    <form class="form hidden"> -->
+      <form class="form" action="#">
+        <div class="form__row">
+          <label class="form__label">Title</label>
+          <input
+            class="form__input form__input--title"
+            placeholder="Title goes here"
+          />
+        </div>
+        <div class="form__row">
+          <label class="form__label">Type</label>
+          <select class="form__input form__input--type">
+            <option value="cat1">Category 1</option>
+            <option value="cat2">Category 2</option>
+          </select>
+        </div>
+        <div class="form__row">
+          <label class="form__label">Idea</label>
+          <textarea
+            class="form__input form__input--text"
+            placeholder="Idea goes here"
+          ></textarea>
+        </div>
+        <div class="form__row">
+          <button type="submit" class="form__btn">Save Idea</button>
+        </div>
+      </form>
+
+      <div class="pinboard hidden">
+        <h2 class="pinboard__heading"></h2>
+        <p class="pinboard__text"></p>
+        <button type="button" class="pinboard__button">Add a New Idea!</button>
+      </div>
+    </main>
+  </body>
+</html>
