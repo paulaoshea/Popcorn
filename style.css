@@ -136,7 +136,7 @@ form {
   font-size: 1.5rem;
   margin: 10rem;
   padding: 4rem;
-  width: 85vh;
+  width: 85%;
   background-color: var(--color-dark--1);
   height: 75vh;
   overflow-y: scroll;
